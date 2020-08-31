@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/amandagonsalves/webpack-project-cod3r#readme",
   "devDependencies": {
+    "css-loader": "0.28.11",
+    "style-loader": "0.21.0",
     "webpack": "4.8.1",
     "webpack-cli": "2.1.3"
   }

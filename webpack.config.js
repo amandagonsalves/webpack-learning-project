@@ -5,5 +5,16 @@ module.exports = {
     output: {
         filename: 'main.js',
         path: __dirname + '/public'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
     }
 }
